@@ -5,14 +5,12 @@ from datetime import datetime, date
 from zhdate import ZhDate
 import sys
 import os
- 
- 
+  
 def get_color():
-    # 获取随机颜色
-    get_colors = lambda n: list(map(lambda i: "#" + "%06x" % random.randint(0, 0xFFFFFF), range(n)))
-    color_list = get_colors(100)
-    return random.choice(color_list)
+    # 往list中填喜欢的颜色即可
+    color_list = ['#87CEFA','#9400D3']
  
+    return random.choice(color_list)
  
 def get_access_token():
     # appId
