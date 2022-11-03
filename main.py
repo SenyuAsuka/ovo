@@ -8,7 +8,7 @@ import os
   
 def get_color():
     # 往list中填喜欢的颜色即可
-    color_list = ['#87CEFA','#9400D3']
+    color_list = ['#87CEFA']
  
     return random.choice(color_list)
  
